@@ -13,21 +13,21 @@
 
 ## 📦 Projects Overview
 
-### 1. [Local VCS (경량 버전 관리 시스템)](여기에_Local_VCS_레포_링크_삽입)
+### 1. [Local VCS (경량 버전 관리 시스템)](https://github.com/Raffy01/Version-Control)
 Git의 핵심 동작 원리(Snapshot 및 Diff)를 로컬 환경에 바닥부터 구현한 프로젝트입니다.
 - **Key Features:**
   - `fork()`와 `execvp()`를 활용한 다중 명령어 라우팅 아키텍처
   - 자체 구현한 LCS 알고리즘 기반의 정밀한 라인 단위 Diff 추출
   - 대용량 소스 파일 파싱 시 `realloc`을 활용한 동적 메모리 스케일링으로 메모리 오버헤드 최소화
 
-### 2. [Sync Daemon (백그라운드 디렉토리 동기화 데몬)](여기에_Sync_Daemon_레포_링크_삽입)
+### 2. [Sync Daemon (백그라운드 디렉토리 동기화 데몬)](https://github.com/Raffy01/Background-Synchronization-Daemon)
 터미널 세션과 완전히 분리되어 백그라운드에서 실시간으로 파일 변경을 추적하고 동기화하는 데몬(Daemon) 유틸리티입니다.
 - **Key Features:**
   - 폴링(Polling) 기법과 OpenSSL MD5 해싱을 결합한 파일 변경점 감지
   - 터미널 종료 후에도 안전하게 동작하도록 프로세스 생명주기 분리
   - IPC(`SIGUSR1`) 시그널 처리를 통한 안전한 데몬 종료(Graceful Shutdown) 제어
 
-### 3. [Backup & Recovery System (스토리지 최적화 백업 툴)](여기에_Backup_System_레포_링크_삽입)
+### 3. [Backup & Recovery System (스토리지 최적화 백업 툴)](https://github.com/Raffy01/Backup-Recovery)
 데이터 무결성을 보장하며, 중복 저장을 방지하여 스토리지 효율성을 극대화한 백업 및 복구 시스템입니다.
 - **Key Features:**
   - `scandir`을 이용한 재귀적 디렉토리 탐색 구조 구현
